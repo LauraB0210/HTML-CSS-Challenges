@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  line-height: 40px;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
   padding: 20px;
 }
 body{
-  line-height: 40px;
+  
 
 }
 nav {
@@ -72,10 +73,12 @@ button {
   color: #fff;
   display: flex;
   font-size: 20px;
+  
 }
 .education-container button:hover{
   background-color: yellow;
   transition: 1s;
+  
 
 }
 
@@ -128,11 +131,10 @@ footer {
   border: 5px solid #0fd884;
 }
 
-.image-container img:first-of-type {
-  vertical-align: bottom;
-  border: 5px solid #8bd306}
+
+#oso2{border-color:#0fd884;}  
 #oso1{border-color: #e72929;}
-#oso2{border-color: #6320ee;}
+#oso3{border-color: #6320ee;}
 
 .tigers {
   background-color: #b8b9ec;
@@ -145,11 +147,11 @@ footer {
 }
 
 .giraffe h2 {
-  color: #F4743B;
+  color: #f50c79;
 }
 
 .card {
-  display: inline-block;
+  display: inline-block;s
   background-color: white;
   padding: 20px;
   margin: 10px;
