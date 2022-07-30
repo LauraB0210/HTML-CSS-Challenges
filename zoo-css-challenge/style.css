@@ -148,7 +148,11 @@ transition: all 1sn ease;
   background-color: #483C46;
   color: #BEEE62;
 }
-
+.dogs1
+{
+  background-color: #5f415a;
+  color: #BEEE62;
+}
 .giraffe h2 {
   color: #f50c79;
 }
@@ -162,8 +166,11 @@ transition: all 1sn ease;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
+
+}
+.dogs1 {
   
-  
+
 }
 
 .card h4 {
