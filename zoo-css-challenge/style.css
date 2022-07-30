@@ -75,9 +75,9 @@ button {
   font-size: large;
   
 }
-button:hover{
+button:hover, :focus {
   background-color: yellow;
-  transition: 1s;
+  
   
 
 }
