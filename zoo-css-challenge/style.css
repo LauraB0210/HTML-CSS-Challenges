@@ -73,9 +73,10 @@ button {
   color: #fff;
   display: flex;
   font-size: large;
+  margin: auto;
   
 }
-button:hover, :focus {
+button:hover{
   background-color: yellow;
   
   
@@ -108,16 +109,19 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
-
+transition: all 1sn ease;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  
 }
 
-
+#badge:hover{
+  background-color:rgb(214, 214, 197);
+}
 
 
 #badge p {
@@ -149,15 +153,16 @@ footer {
   color: #f50c79;
 }
 
-.card {
-  display: inline-block;s
+.card { 
+  display: inline-block;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
   width: 30%;
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
+  
   
 }
 
@@ -208,7 +213,7 @@ footer {
   text-align: center;
   background-color: #fffffc;
   max-width: 700px;
-  margin: 20px 0px 20px 250px;
+  margin:auto;
 
 }
 
@@ -230,16 +235,17 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: inline-block;
-  width: 20%;
   
-  
-
 
 }
 .news {
   text-align: center;
 }
 #newss{
+  text-align: center;
+}
+
+.links {
+  margin:   270 px 0 px 0 px 50 px;
   text-align: center;
 }
